@@ -284,10 +284,11 @@ body{
 }
 .logo img{
     width: 50px;
+    padding-right: 0.1px;
 }
 
 .container-image img{
- width: 0;
+ display: none;
 }
 
 section{
@@ -312,15 +313,16 @@ section{
     align-items: center;
     justify-content:space-between;
     padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
 }
 
  
 .navbar a {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0 0.8rem;
+    margin: 0 10px 0 0;
     font-size: 1rem;
     color: #fff;
+    
 
 }
 
@@ -332,11 +334,16 @@ section{
 }
 
 .icons img{
-    width: 20px;
-    margin: 0rem 0.1rem 0rem 0rem;
+    width: 17px;
+    margin: 0rem 1rem 0rem 0rem;
     cursor: pointer;
 }
 
+.icons img:hover{
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+}
 
 .btn {
     background: var(--main-color);
@@ -495,6 +502,11 @@ section{
 
 .review .box-container .box:hover>*{
     color: var(--black);
+}
+
+.address iframe{
+    width: 350px ;
+    height: 300px;
 }
 
 .address{
